@@ -29,8 +29,6 @@ class Fixnum
       result << "#{b}#{a}#{a}#{a}"
     when '9'
       result << "#{a}#{c}"
-    else
-      print('It is not a string')
     end
   end
   return result.join('').to_s
